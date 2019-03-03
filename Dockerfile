@@ -15,7 +15,7 @@ RUN apt update \
   && rm android-sdk.zip \
   && echo "y" | sdkmanager "tools" \
   && echo "y" | sdkmanager "platform-tools" \
-  && echo "y" | sdkmanager "build-tools;28.0.2" \
+  && echo "y" | sdkmanager "build-tools;28.0.3" \
   && echo "y" | sdkmanager "extras;android;m2repository" \
   && echo "y" | sdkmanager "extras;google;m2repository" \
   && echo "y" | sdkmanager "emulator" \
