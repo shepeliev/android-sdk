@@ -8,7 +8,7 @@ ADD start-default-emulator.sh /opt
 RUN mkdir /opt/android
 
 RUN apt update \
-  && apt install openjdk-8-jdk wget unzip -y \
+  && apt install openjdk-8-jdk wget unzip git -y \
   && chmod a+x /opt/start-default-emulator.sh \
   && wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip -qO android-sdk.zip \
   && unzip android-sdk.zip -d /opt/android \
