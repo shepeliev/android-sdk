@@ -6,7 +6,7 @@ Android SD docker image for building Android apps. May be used for CI systems as
 
 - Android SDK Tools
 - Android SDK Platform-tools
-- Android SDK Build-tools, revision 29.0.0
+- Android SDK Build-tools, revision 29.0.2
 - SDK Platform Android 9.0, API 28
 - Android Support Repository
 - Google Repository
